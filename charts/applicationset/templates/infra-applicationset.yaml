@@ -5,8 +5,8 @@ metadata:
 spec:
   generators:
     - git:
-        repoURL: https://github.com/janus-idp/assemble-platforms.git
-        revision: main
+        repoURL: https://github.com/redhat-mal/assemble-platforms.git
+        revision: enhance-gitops
         files:
         - path: "clusters/**/config.json"
   template:
@@ -16,7 +16,7 @@ spec:
       project: default
       source:
         path: charts/apps
-        repoURL: https://github.com/janus-idp/assemble-platforms.git
+        repoURL: https://github.com/redhat-mal/assemble-platforms.git
         targetRevision: main
       destination:
         server: https://kubernetes.default.svc
