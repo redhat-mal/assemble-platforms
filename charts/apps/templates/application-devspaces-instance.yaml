@@ -7,8 +7,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/janus-idp/assemble-platforms.git
-    targetRevision: main
+    repoURL: https://github.com/redhat-mal/assemble-platforms.git
+    targetRevision: enhance-gitops
     path: charts/devspaces
   destination:
     server: https://kubernetes.default.svc
