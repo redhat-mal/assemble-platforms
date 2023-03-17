@@ -10,9 +10,9 @@ spec:
     repoURL: https://github.com/redat-mal/assemble-platforms.git
     targetRevision: enhance-gitops
     path: charts/operator
-  helm:
-    valueFiles:
-      - values-vault-config-operator.yaml
+    helm:
+      valueFiles:
+        - values-vault-config-operator.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: vault-config-operator
