@@ -19,7 +19,7 @@ spec:
         repoURL: https://github.com/redhat-mal/assemble-platforms.git
         targetRevision: enhance-gitops
         helm:
-          values:
+          parameters:
             - name: git.applicaitonId
               value: "{{ .Values.git.applicationId }}"
       destination:

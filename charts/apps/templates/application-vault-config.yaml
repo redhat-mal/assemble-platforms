@@ -11,7 +11,7 @@ spec:
     targetRevision: enhance-gitops
     path: charts/vault-config
     helm:
-      values:
+      parameters:
         - name: git.applicaitonId
           value: "{{ .Values.git.applicationId }}"
   destination:
