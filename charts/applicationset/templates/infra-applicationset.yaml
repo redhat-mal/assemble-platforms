@@ -18,6 +18,10 @@ spec:
         path: charts/apps
         repoURL: https://github.com/redhat-mal/assemble-platforms.git
         targetRevision: enhance-gitops
+        helm:
+          values:
+            - name: git.applicaitonId
+              value: "{{ .Values.git.applicationId }}"
       destination:
         server: https://kubernetes.default.svc
         namespace: "{{ .Values.destination.namespace }}"
