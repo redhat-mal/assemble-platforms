@@ -16,7 +16,7 @@ spec:
           value: "{{ .Values.git.applicationId }}"
   destination:
     server: https://kubernetes.default.svc
-    namespace: vault-config
+    namespace: vault-admin
   syncPolicy:
     automated:
       prune: true
