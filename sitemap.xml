@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://janus-idp.github.io/assemble-platforms/</loc>
+         <lastmod>2023-03-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://janus-idp.github.io/assemble-platforms/architecture/</loc>
+         <lastmod>2023-03-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://janus-idp.github.io/assemble-platforms/demo/</loc>
+         <lastmod>2023-03-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://janus-idp.github.io/assemble-platforms/getting_started/getting-started/</loc>
+         <lastmod>2023-03-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
